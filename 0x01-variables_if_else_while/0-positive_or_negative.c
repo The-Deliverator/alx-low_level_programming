@@ -28,7 +28,3 @@ int main(void)
 	return (0);
 }
 
-
-1-last_digit.c
-
-#include <stdlib.h>
