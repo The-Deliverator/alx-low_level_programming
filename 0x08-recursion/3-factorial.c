@@ -3,10 +3,10 @@
 /**
  *Factorial - name of the function
  *@n: parameter of the function
- *Return: positive factorial
+ *Return: a positive factorial of n
  */
 
-int factorial(int n)
+int factorial(int n);
 {
 	if (n < 0)
 		return (-1);
