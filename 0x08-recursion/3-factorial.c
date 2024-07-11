@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *Factorial - name of the function
+ *Factorial - function parameter
  *@n: parameter of the function
- *Return: a positive factorial of n
+ *Return:function n.
  */
 
 int factorial(int n)

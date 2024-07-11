@@ -2,18 +2,34 @@
 
 /**
  * _sqrt - calculates square root
- * @n: numbedr to calculate square root
- *
+ * @n: number to calculate square root
  * Return: square root
  */
-int _sqrt_recursion(int n);
+
+int _sqrt_recursion(int n)
      {
-	int sqrt = i * i
+	if(n<0)
+	{
+	return(functional_sqrt_recursion(n,0));
+	}
 
-		if (sqrt > n)
-			return (-1);
-	if (sqrt == n)
-		return (i);
+/**
+ * functional_sqrt_recursion- recursive function
+ * @n: number to calculate the square root
+ * @a:number to be compared
+ * Return: square root
+ */
 
-	return (_sqrt(n, i + 1));
+int functional_sqrt_recursion(int n, int a)
+{
+	if(a*a>n)
+	{
+	return(-1);
+	}
+	if (a*a == n)
+	{
+	return (a);
+	}
+	return (functional_sqrt_recursion(n,a + 1));
+}
 }
